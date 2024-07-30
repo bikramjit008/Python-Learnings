@@ -1,0 +1,22 @@
+'.' - matches every thing escept new line.
+\d - digits(0-9)
+\w - word character.(a-z  A-Z 0-9)
+\W - not a word character.
+\s - whitespaces(space,tab,newline)
+\S - not whitespaces
+\b - word boundery
+\B - Not a word Boundary
+^  - Begening of a string
+$  - End of a string
+[] - matches characters in Brackets
+[^ ] - matches characters not in Brackets
+
+|  - Either or
+() - Group
+
+Quantifires:
+* - Zero or more
++ - one or more
+? - Zero or one
+{3}-Exact number
+{1,4}-Range of the number(minimum-maximum)
